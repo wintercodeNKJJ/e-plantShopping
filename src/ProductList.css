@@ -172,6 +172,12 @@ body {
     font-size: 29px;
 
 }
+/* disabled buttons should appear muted */
+.product-button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
 .plantname_heading{
    display: flex;
    align-items: center;
